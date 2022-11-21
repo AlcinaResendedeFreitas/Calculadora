@@ -1,0 +1,293 @@
+/*CSS da calculadora página inicial*/
+body{
+    
+    background-image: linear-gradient(to right, #1be9ab, #1bcae9, #083dcf);
+}
+.letra{
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    left: 28%;
+    top: 7%;
+    color: #000000;
+    display: block;
+
+}
+.table{
+    position: absolute;
+    width: 23%;
+    height: 75%;
+    background-color: #6c6c59fb;
+    border-radius: 25px;
+    margin-left: 38%;
+    margin-top: 5%;
+}
+.td{
+    position: absolute;
+    margin-top: -45%;
+    margin-left: 21%;
+
+    width: 200px;
+    border-radius: 30px;
+    height: 50px;
+    background: #D9D9D9;
+}
+.td2{
+    position: absolute;
+    margin-top: -22%;
+    margin-left: 21%;
+    width: 200px;
+    border-radius: 30px;
+    height: 50px;
+    background: #D9D9D9;
+}
+.td3{
+    position: absolute;
+    margin-top: 1%;
+    margin-left: 21%;
+    width: 200px;
+    border-radius: 30px;
+    height: 50px;
+    background: #D9D9D9;
+}
+.td4{
+    position: absolute;
+    margin-top: 24%;
+    margin-left: 21%;
+    width: 200px;
+    border-radius: 30px;
+    height: 50px;
+    background: #D9D9D9;
+}
+.td5{
+    position: absolute;
+    margin-top: 47%;
+    margin-left: 21%;
+    width: 200px;
+    border-radius: 30px;
+    height: 50px;
+    background: #D9D9D9;
+}
+.letra2{
+    position: absolute;
+    text-align: center;
+    margin-top: 4%;
+    width: 199px;
+    height: 26px;
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 26px;
+    color: #000000;
+}
+
+
+/* CSS das operções básicas*/
+
+.letra3{
+    position: absolute;
+    width: 240px;
+    height: 50px;
+    font-family: 'IBM Plex Serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 30px;
+    text-align: center;
+    margin-left: 16%;
+    top: 7%;
+    color: #000000;
+    display: block;
+
+}
+.numero{
+    position: absolute;
+    width: 250px;
+    height: 30px;
+    background: #D9D9D9;
+    margin-top: 5%;
+
+}
+.tr{
+    position: absolute;
+    top: 20%;
+    left: 14%;
+}
+.tr2{
+    position: absolute;
+    top: 29%;
+    left: 14%;
+}
+.resultado{
+    position: absolute;
+    top: 38%;
+    left: 14.2%;
+}
+
+.resultado2{
+    position: absolute;
+    width: 255px;
+    height: 32px;
+    text-align: left;
+    background: #d9d9d963;
+    margin-top: 20%;
+    
+}
+.igual{
+    position: absolute;
+    left: 70%;
+    top: 70%;
+    background: #D9D9D9;
+    width: 50px;
+    height: 100px;
+}
+.igual2{
+        position: absolute;
+        width: 80px;
+        height:95px;
+        font-family: 'IBM Plex Sans Hebrew';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 47px;
+        left: -37%;
+        top: -10%;
+        color: #000000;
+}
+.sinal{
+    position: absolute;
+    width: 60px;
+    height: 65px;
+    font-family: 'IBM Plex Sans Hebrew';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 47px;
+    left: 29%;
+    top: -63%;
+    color: #000000;
+}
+.botao{
+    
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #D9D9D9;
+    left:14% ;
+    top: 60%;
+}
+.botao2{
+    
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #D9D9D9;
+    left:40% ;
+    top: 60%;
+}
+
+.botao3{
+    
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #D9D9D9;
+    left:14% ;
+    top: 78%;
+}
+
+.botao4{
+    
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background: #D9D9D9;
+    left:40% ;
+    top: 78%;
+}
+.link{
+    
+        position: absolute;
+        margin-top: 44%;
+        margin-left: 43%;
+        width: 200px;
+        border-radius: 30px;
+        height: 50px;
+        background: #D9D9D9;
+
+}
+
+/*CSS Potencia */
+.igual1{
+    position: absolute;
+    left: 28%;
+    top: 63%;
+    background: #D9D9D9;
+    width: 150px;
+    height: 100px;
+     border-radius: 10%;
+}
+.igual3{
+    position: absolute;
+    width: 150px;
+    height:155px;
+    font-family: 'IBM Plex Sans Hebrew';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 0px;
+    left: -1%;
+    top: -30%;
+    color: #000000;
+}
+/*CSS Quadratica*/
+.tr3{
+    position: absolute;
+    top: 38%;
+    left: 14%;
+}
+.resultado3{
+    position: absolute;
+    width: 255px;
+    height: 32px;
+    background: #d9d9d9;
+    margin-top: 515%;
+    margin-left: 14%;
+}
+.resultado4{
+    position: absolute;
+    width: 255px;
+    height: 32px;
+    background: #d9d9d9;
+    margin-top: 850%;
+    margin-left: -19%;
+    
+}
+.igual4{
+    position: absolute;
+    left: 28%;
+    top: 67%;
+    background: #D9D9D9;
+    width: 150px;
+    height: 100px;
+     border-radius: 10%;
+}
+.igual5{
+    position: absolute;
+    width: 150px;
+    height:155px;
+    font-family: 'IBM Plex Sans Hebrew';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 0px;
+    left: -1%;
+    top: -29%;
+    color: #000000;
+}
